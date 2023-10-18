@@ -31,6 +31,6 @@ main {
     flex-grow: 1;
 }
 
-main .side-menu .main-content {
+main, .side-menu, .main-content {
     overflow-y: scroll;
 }
