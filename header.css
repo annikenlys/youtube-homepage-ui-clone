@@ -1,0 +1,85 @@
+/* THIS IS THE HEADER CSS*/
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: black;
+    height: 56px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+    align-items: center;
+    padding: 0 .5rem;
+}
+
+main {
+    background-color: aquamarine;
+    flex-grow: 1;
+    display: flex;
+    overflow-y: hidden;
+}
+
+.side-menu {
+    background-color: purple;
+    width: 240px;
+    flex-shrink: 0;
+}
+
+.main-content {
+    background-color: chocolate;
+    flex-grow: 1;
+}
+
+.side-menu, .main-content {
+    overflow-y: scroll;
+}
+
+.menu-btn-logo {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.menu-btn-logo div {
+    height: 20px;
+}
+
+.settings-and-sign-in {
+
+}
+
+.settings-btn {
+    background: none;
+    color: white;
+    border: none;
+}
+
+.sign-in-btn {
+    background: transparent;
+    color: #3ea6ff;
+    border-radius: 20px;
+    padding: .5rem;
+    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    display: inline-flex;
+    gap: .5rem;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.sign-in-btn:hover {
+    background-color: #263850;
+    border-color: transparent;
+    cursor: pointer;
+}
